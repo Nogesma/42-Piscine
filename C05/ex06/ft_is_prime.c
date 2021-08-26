@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int	ft_sqrt(int nb)
+{
+	long	i;
+	long	p;
+
+	i = 0;
+	p = 0;
+	while (p <= nb)
+	{
+		if (p == nb)
+			return (i);
+		++i;
+		p = i * i;
+	}
+	return (i);
+}
+
+int	ft_is_prime(int nb)
+{
+	int	i;
+	int	range;
+
+	if (nb <= 1)
+		return (0);
+	if (nb == 2)
+		return (1);
+	range = ft_sqrt(nb) + 1;
+	i = 2;
+	while (i < range)
+	{
+		if (nb % i == 0)
+			return (0);
+		++i;
+	}
+	return (1);
+}

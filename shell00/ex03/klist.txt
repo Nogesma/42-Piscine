@@ -1,0 +1,6 @@
+Credentials cache: API:-
+        Principal: msegrans@42LAUSANNE.CH
+
+  Issued                Expires               Principal
+Aug  3 11:37:18 2021  Aug  3 21:37:18 2021  krbtgt/42LAUSANNE.CH@42LAUSANNE.CH
+Aug  3 11:37:20 2021  Aug  3 21:37:18 2021  HTTP/student-storage.42lausanne.ch@42LAUSANNE.CH
